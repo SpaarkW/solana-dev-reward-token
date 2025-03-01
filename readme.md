@@ -1,4 +1,4 @@
-# Devnet Bitcoin Treasury Machine (DBTM) Token Deployment
+# Devnet Reward Token Deployment
 
 This repository contains a script to deploy an SPL Token on Solana's devnet with a 5% transfer tax mechanism and proper metadata. The token uses Solana's Token-2022 program which includes the Transfer Fee extension.
 
@@ -84,7 +84,3 @@ The token uses Solana's native Transfer Fee extension which:
 - Automatically withholds 5% of every transfer
 - Collects the fees in a separate "withheld" account
 - Allows the tax wallet to withdraw these fees on demand
-
-## Example Usage After Deployment
-
-To check your token balance:
